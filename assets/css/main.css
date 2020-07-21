@@ -6563,7 +6563,7 @@ input, select, textarea {
 				}
 
 			.gallery.style1 article:hover .caption {
-				opacity: 1;
+				opacity: 1; /*12: DON'T make gallery captions fade on hover (didn't change number)*/
 			}
 
 		@media screen and (max-width: 1280px) {
