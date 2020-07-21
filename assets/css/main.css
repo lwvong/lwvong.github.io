@@ -8624,6 +8624,6 @@ input, select, textarea {
 
 
 /*10: spread out letters */
-.space-out-letters {
+.space-out-letters, h2 {
   letter-spacing: 0.005em;
 }
