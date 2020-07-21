@@ -8623,6 +8623,15 @@ input, select, textarea {
 }
 
 
+/*09: make gallery images fullscreen*/
+  .full-gallery {
+    object-fit: cover;
+    width:230px;
+    height:230px;
+  }
+
+
+
 /*10: spread out letters */
 .space-out-letters, h2 {
   letter-spacing: 0.005em;
