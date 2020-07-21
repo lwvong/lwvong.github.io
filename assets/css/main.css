@@ -6537,8 +6537,8 @@ input, select, textarea {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5);
-				opacity: 0;
+				background-color: rgba(0, 0, 0, 0.65);
+				opacity: .9; /*11:make gallery captions persistent*/
 				padding: 2rem;
 				z-index: 1;
 				font-size: 0.8rem;
