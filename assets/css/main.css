@@ -8621,3 +8621,9 @@ input, select, textarea {
 #do-not-center {
   /* text-align: left; */
 }
+
+
+/*10: spread out letters */
+.space-out-letters {
+  letter-spacing: 0.005em;
+}
