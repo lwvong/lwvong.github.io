@@ -6538,7 +6538,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				background-color: rgba(0, 0, 0, 0.65);
-				opacity: .9; /*11:make gallery captions persistent*/
+				opacity: 1; /*11:make gallery captions persistent*/
 				padding: 2rem;
 				z-index: 1;
 				font-size: 0.8rem;
@@ -6563,7 +6563,7 @@ input, select, textarea {
 				}
 
 			.gallery.style1 article:hover .caption {
-				opacity: 1; /*12: DON'T make gallery captions fade on hover (didn't change number)*/
+				opacity: 0; /*12: DON'T make gallery captions fade on hover (didn't change number)*/
 			}
 
 		@media screen and (max-width: 1280px) {
