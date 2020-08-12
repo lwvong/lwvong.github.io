@@ -3615,7 +3615,7 @@ input, select, textarea {
 			}
 
 		.banner.style1.content-align-center {
-			/* text-align: center; */ /*07:ul stop centering text*/
+			text-align: UNSET; /*07:ul stop centering text*/
 		}
 
 		.banner.style1.content-align-right {
@@ -8617,12 +8617,6 @@ input, select, textarea {
     }
 
 
-/*07:ul stop centering text. don't need this anymore bc of other 07 fix*/
-#do-not-center {
-  /* text-align: left; */
-}
-
-
 /*09: make gallery images fullscreen*/
   .full-gallery {
     object-fit: cover;
@@ -8631,8 +8625,54 @@ input, select, textarea {
   }
 
 
-
 /*10: spread out letters */
 .space-out-letters, h2 {
   letter-spacing: 0.005em;
 }
+
+
+/*11: back to top button */
+.back-to-top {
+  color: black;
+  opacity: 0;
+  transition: opacity .6s ease-in-out;
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+a.back-to-top {
+  font-weight: 1000;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.6;
+  padding-left: 2px;
+  padding-top: 14px;
+  display: inline;
+  text-decoration: none;
+}
+
+.back-to-top:hover, .back-to-top:focus, .back-to-top:visited {
+  background: #2c838f;
+  color: white;
+}
+
+.back-to-top.show {
+  opacity: 1;
+}
+
+/* <span class="icon solid style2 major fa-arrow-up align-circles"></span>
+
+.align-circles {
+  position: absolute;
+  bottom: -15px;
+  right: 0px;
+} */
